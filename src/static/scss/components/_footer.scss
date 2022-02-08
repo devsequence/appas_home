@@ -1,0 +1,114 @@
+.footer{
+  background: linear-gradient(90.09deg, #2B2A29 5.94%, #0E0E0E 109.76%);
+  padding: 6rem 0 5rem;
+  .container  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &-item{
+    margin: 0 0 0 100px;
+    &:first-child{
+      margin: 0 0 0 0;
+      max-width: 250px;
+    }
+    &:nth-child(2){
+      margin: 0 0 0 auto;
+    }
+  }
+  &-logo{
+    margin-bottom: 20px;
+  }
+  &-logo__text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  &-politic{
+    margin-bottom: 20px;
+    a{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.01em;
+      color: #FFFFFF;
+    }
+  }
+  &-copy{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+  }
+  &-title{
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+  }
+  &-item__nav{
+    li{
+      margin-bottom: 10px;
+    }
+    a{
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #FFFFFF;
+    }
+  }
+  &-social{
+    margin: 56px 0 40px;
+    a{
+      font-size: 24px;
+      line-height: 29px;
+      letter-spacing: 0.01em;
+      color: #FFFFFF;
+    }
+    .footer-WhatsApp{
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #FFFFFF;
+
+      a{
+        color: #79BA7E;
+      }
+    }
+  }
+  &-support{
+    a{
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #FFFFFF;
+    }
+  }
+  &-instagram{
+    margin-right: 40px;
+    a{
+      display: inline-flex;
+      align-items: center;
+      border-radius: 90px;
+      background: #fff;
+      padding: 3px 12px 3px 2px;
+      span{
+        font-size: 21px;
+        line-height: 26px;
+        letter-spacing: 0.01em;
+        color: #141413;
+        display: inline-block;
+        margin-left: 10px;
+      }
+    }
+  }
+}

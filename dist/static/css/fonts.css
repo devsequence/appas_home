@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url("../fonts/CenturyGothic/CenturyGothic-Bold.eot");
+  src: url("../fonts/CenturyGothic/CenturyGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic/CenturyGothic-Bold.woff") format("woff"), url("../fonts/CenturyGothic/CenturyGothic-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT/FuturaPT-Bold.eot");
+  src: url("../fonts/FuturaPT/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT/FuturaPT-Bold.woff") format("woff"), url("../fonts/FuturaPT/FuturaPT-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px; }

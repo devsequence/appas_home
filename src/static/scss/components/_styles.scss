@@ -1,0 +1,148 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: $default;
+  background: $white;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow-x: hidden;
+  letter-spacing: 0.1px;
+  &.scroll-h{
+    overflow: hidden;
+  }
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $Montserrat;
+  font-weight: 900;
+}
+h1 {
+  font-size: 42px;
+  line-height: 42px;
+  color: $default;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 46px;
+  color: $default;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 32px;
+  color: $default;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 28px;
+  color: $default;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 25px;
+  color: $default;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 23px;
+  color: $default;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+img {
+  display: block;
+}
+a{
+  outline: none !important;
+}
+section {
+  position: relative;
+  padding: 40px 0;
+  z-index: 1;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+a,
+button,
+input,
+select,
+textarea,
+span,
+.icon {
+  transition: all 150ms ease;
+}
+button, textarea, input{
+  font-family: $Montserrat;
+}
+.btn{
+  font-family: $Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.07em;
+  border: 1px solid transparent;
+  padding: 25px 40px;
+}
+
+.btn-secondary{
+  padding: 22px 90px;
+  border-color: $white;
+  color:  $white;
+  text-transform: uppercase;
+  &:hover{
+    background: $white;
+    color: $default;
+  }
+}
+.btn-primary{
+  padding: 22px 90px;
+  background: $default;
+  border-color: $default;
+  color:  $white;
+  text-transform: uppercase;
+  font-weight: bold;
+  &:hover{
+    background: $white;
+    border-color: $default;
+    color: $default;
+  }
+}
+.section-link{
+  text-align: center;
+}
+.tab-item{
+  display: flex;
+  flex-wrap: wrap;
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  margin-top: 50px;
+  opacity: 0;
+  -webkit-transition: margin-top .7s ease,opacity .4s ease;
+  -o-transition: margin-top .7s ease,opacity .4s ease;
+  transition: margin-top .7s ease,opacity .4s ease;
+  &.active{
+    visibility: visible;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-top: 0;
+    opacity: 1;
+  }
+}

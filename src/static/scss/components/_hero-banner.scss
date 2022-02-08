@@ -1,0 +1,97 @@
+.hero-banner{
+  background: #000;
+  position: relative;
+  padding: 0 0 70px;
+  .container{
+    max-width: 1680px;
+  }
+  .slide{
+    padding: 40px 0 60px;
+    .container{
+      display: flex;
+      align-items: center;
+    }
+    &-media{
+      .slide-desc__logo{
+        display: none;
+      }
+    }
+    &-desc{
+
+      &__logo{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 1.6rem;
+        img{
+          display: inline-block;
+          vertical-align: middle;
+        }
+        span{
+          font-size: 6.4rem;
+          line-height: 7.8rem;
+          letter-spacing: 0.01em;
+          color: #FFFFFF;
+          &.bold{
+            font-weight: 700;
+          }
+          &.bolt-big{
+            font-size: 7.8rem;
+          }
+        }
+      }
+      &__info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+      &__link{
+        font-size: 2.4rem;
+        line-height: 2.9rem;
+        letter-spacing: 0.01em;
+        color: #FF007D;
+        margin-right: .8rem;
+      }
+      &__price{
+        font-size: 2.4rem;
+        line-height: 2.9rem;
+        letter-spacing: 0.01em;
+        color: #fff;
+      }
+      &__text{
+        display: block;
+        font-size: 2.1rem;
+        line-height: 2.6rem;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        font-weight: 300;
+        text-align: right;
+        width: 50%;
+      }
+    }
+  }
+  .slick-dots{
+    position: absolute;
+    right: 14rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    li{
+      width: 10px;
+      height: 10px;
+      background: #fff;
+      margin-bottom: 2rem;
+      cursor: pointer;
+      border-radius: 50%;
+      &:last-child{
+        margin-bottom: 0;
+      }
+      button{
+        font-size: 0;
+      }
+    }
+    .slick-active{
+      background: #FFE84B;
+    }
+  }
+
+}
