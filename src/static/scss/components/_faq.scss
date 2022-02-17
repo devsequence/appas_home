@@ -1,0 +1,82 @@
+
+.faq{
+  &-wrapper{
+    padding: 102px 0 102px;
+    background: #F5F7FA;
+    .container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  &-wrap{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    max-width: 1000px;
+  }
+  &-media, &-title{
+    width: 50%;
+    padding: 0 15px;
+  }
+  &-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: #232F3E;
+  }
+  &-accordion{
+    margin-top: 180px;
+    padding: 0 15px;
+    max-width: 1000px;
+  }
+}
+.accordion{
+  &-item{
+    margin-bottom: 55px;
+    font-family: "Montserrat";
+    color: #232F3E;
+    letter-spacing: 0.01em;
+    &.active{
+      .accordion-close{
+        transform: rotate(45deg);
+      }
+      .accordion-inner{
+        height: auto;
+        max-height: 100%;
+      }
+    }
+  }
+  &-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-inner{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 26px;
+    max-height: 130px;
+    overflow: hidden;
+    transition: all ease 300ms;
+  }
+  &-close{
+    top: 0;
+    position: relative;
+    transition: all ease 300ms;
+    padding-left: 10px;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #353535;
+    cursor: pointer;
+  }
+}

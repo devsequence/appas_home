@@ -1,0 +1,112 @@
+.present{
+  &-wrapper{
+    padding: 80px 0 102px;
+    background: #F5F7FA;
+    .title-page{
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #232F3E;
+      margin-bottom: 140px;
+    }
+  }
+  &-wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  &-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+    &__desc{
+      text-align: center;
+      width: 50%;
+      span{
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: justify;
+        letter-spacing: 0.01em;
+        color: #232F3E;
+        display: block;
+        margin-bottom: 25px;
+        b{
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  &-item__media{
+    width: 50%;
+    background: #252525;
+    border-radius: 20px;
+    padding: 38px 22px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    max-width: 425px;
+  }
+  &-media{
+    &__logo{
+      max-width: 125px;
+      img{
+        width: 100%;
+      }
+    }
+    &__desc{
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      .code{
+        font-size: 14px;
+        line-height: 17px;
+      }
+      .price{
+        font-size: 36px;
+        line-height: 44px;
+      }
+    }
+  }
+}
+.subtitle-page{
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #232F3E;
+}
+.bonus-wrap{
+  margin: 0 -10px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bonus-item{
+  height: 374px;
+  background: #000000;
+  border-radius: 19px;
+  width: calc(50% - 20px);
+  margin: 0 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .bonus-logo{
+    margin:  0 auto 50px;
+  }
+  &__title{
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+  }
+}
