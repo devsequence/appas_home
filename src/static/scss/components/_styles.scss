@@ -38,8 +38,9 @@ h3 {
 
 h4 {
   font-size: 18px;
-  line-height: 28px;
-  color: $default;
+  line-height: 22px;
+  color: #232F3E;
+  font-weight: 600;
 }
 
 h5 {
@@ -122,6 +123,16 @@ button, textarea, input{
     color: $default;
   }
 }
+.btn-pink{
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  padding: 8px 18px;
+  background: #FF007D;
+  border-radius: 9px;
+}
 .section-link{
   text-align: center;
 }
@@ -144,5 +155,66 @@ button, textarea, input{
     top: 0;
     margin-top: 0;
     opacity: 1;
+  }
+}
+.bottom-nav{
+  padding: 15px 0;
+  ul{
+    display: flex;
+    justify-content: center;
+  }
+  li{
+   margin: 0 1.5rem;
+  }
+  a{
+    font-family: 'Montserrat';
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.01em;
+    color: #232F3E;
+    &:hover, &.active{
+     color: #FF007D;
+    }
+  }
+}
+.wysiwyg{
+  h4{
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #232F3E;
+    margin-bottom: 20px;
+  }
+  b{
+    font-weight: 500;
+  }
+  a{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #232F3E;
+    font-weight: 500;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  ul, ol{
+    margin-bottom: 20px;
+    li{
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #232F3E;
+    }
+  }
+  ol{
+    padding-left: 20px;
   }
 }

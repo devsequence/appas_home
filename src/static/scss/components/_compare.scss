@@ -1,0 +1,40 @@
+.compare{
+  &-wrapper{
+    padding: 65px 0 102px;
+    background: #F5F7FA;
+    .title-page{
+      font-size: 33px;
+      line-height: 40px;
+      letter-spacing: 0.01em;
+      color: #232F3E;
+      margin-right: 16px;
+    }
+    .remove-all{
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #A7A7A7;
+    }
+  }
+  &-top{
+    padding: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 70px;
+    width: 100%;
+  }
+}
+.compare-wrap{
+  width: 100%;
+  background: #fff;
+  padding: 46px 0;
+  display: flex;
+  flex-grow: 1;
+  &__item{
+    width: 100%;
+  }
+  &__media{
+    min-height: 540px;
+  }
+}

@@ -1,23 +1,31 @@
 .hero-banner{
   background: #000;
   position: relative;
-  padding: 0 0 70px;
+  padding: 0 0 0;
   .container{
     max-width: 1680px;
   }
   .slide{
-    padding: 40px 0 60px;
+    height: 64rem;
     .container{
       display: flex;
       align-items: center;
     }
     &-media{
+      width: 100%;
+      max-width: 100rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      img{
+        margin: 0 auto;
+      }
       .slide-desc__logo{
         display: none;
       }
     }
     &-desc{
-
       &__logo{
         display: flex;
         justify-content: flex-end;
@@ -26,18 +34,20 @@
         img{
           display: inline-block;
           vertical-align: middle;
+          margin: 0 2rem 1.5rem 0;
         }
         span{
           font-size: 6.4rem;
           line-height: 7.8rem;
           letter-spacing: 0.01em;
           color: #FFFFFF;
-          &.bold{
-            font-weight: 700;
-          }
-          &.bolt-big{
-            font-size: 7.8rem;
-          }
+        }
+        .bold{
+          font-weight: 800;
+        }
+        .bolt-big{
+          font-weight: 800;
+          font-size: 7.8rem;
         }
       }
       &__info{
@@ -75,6 +85,8 @@
     right: 14rem;
     top: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
     li{
       width: 10px;
       height: 10px;
@@ -93,5 +105,4 @@
       background: #FFE84B;
     }
   }
-
 }

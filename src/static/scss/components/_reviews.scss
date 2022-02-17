@@ -1,0 +1,92 @@
+.reviews{
+  &-wrapper{
+    padding: 80px 0 102px;
+    background: #F5F7FA;
+    .title-page{
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #232F3E;
+      margin-bottom: 47px;
+    }
+    .link-page{
+      text-align: center;
+      margin-bottom: 60px;
+    }
+  }
+  &-wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  &-item{
+    margin-bottom: 70px;
+    &__date{
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #000000;
+      margin-bottom: 16px;
+    }
+    &__desc{
+      background: #FFFFFF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 26px;
+      min-height: 156px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    &__text{
+      min-height: 28px;
+      margin-bottom: 15px;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #232F3E;
+    }
+    &__answer{
+      font-size: 18px;
+      line-height: 22px;
+      text-align: right;
+      letter-spacing: 0.01em;
+      color: #232F3E;
+      span{
+        color: #007C0A;
+      }
+    }
+  }
+}
+.pagination{
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.pagination-list{
+  margin-right: 15px;
+  ul{
+    display: flex;
+  }
+  li{
+    margin-right: 23px;
+  }
+  a{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #A7A7A7;
+    &.active{
+      color: #000000;
+    }
+  }
+}
+.pagination-total{
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  text-align: right;
+}

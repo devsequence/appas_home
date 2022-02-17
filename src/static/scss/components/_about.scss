@@ -1,0 +1,69 @@
+.wrap{
+  background: #FFFFFF;
+  border-radius: 26px;
+  padding: 31px 80px 70px;
+}
+.about{
+  &-wrapper{
+    background: #F5F7FA;
+    padding: 130px 0 150px;
+  }
+  &-media{
+    img{
+      margin: 0 auto 120px;
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+  &-text{
+    margin-bottom: 50px;
+  }
+  &-signature{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.payment{
+  &-wrapper{
+    background: #F5F7FA;
+    padding: 130px 0 150px;
+  }
+  &-wrap{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-item{
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+    img{
+      height: auto;
+    }
+  }
+}
+.politic{
+  &-wrapper{
+    background: #F5F7FA;
+    padding: 130px 0 150px;
+  }
+  &-wrap{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-item{
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+    img{
+      height: auto;
+    }
+  }
+}
